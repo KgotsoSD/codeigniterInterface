@@ -97,5 +97,7 @@ a {
   </div>
 </form>
 
+<?php echo $title; ?>
+
 </body>
 </html>

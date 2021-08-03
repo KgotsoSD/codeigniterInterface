@@ -1,10 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class site_model extends CI_Model
+class Register_model extends CI_Model
 {
      
-    public function run_query
+    public function run_query()
     {
         $this->load->database('mydatabase');
         $DB1->query();
